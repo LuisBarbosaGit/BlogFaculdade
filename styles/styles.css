@@ -1,0 +1,98 @@
+/* Gerais */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0c0a09;
+}
+#heading {
+  width: 100dvw;
+  background: #44403c;
+}
+#content {
+  display: flex;
+  width: 90dvw;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+/* Icone */
+#iconheading {
+  transition: all 0.1s ease;
+}
+#iconHeading img {
+  width: 8.3rem;
+  height: 8.3rem;
+}
+
+#iconHeading:hover {
+  transform: scale(1.05);
+}
+.subtitulo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(0.5rem, 30vw, 1.8rem);
+  color: #e7e5e4;
+}
+
+/* Titulo Principal */
+#headerTitle {
+  text-align: center;
+}
+
+#titleHeading {
+  font-family: "Rubik";
+  font-size: clamp(2.5rem, 30vw, 4.7rem);
+  color: #e7e5e4;
+}
+
+#titleHeading span {
+  color: #f59e0b;
+}
+
+/* Botões Laterais Header */
+#buttonsHeading {
+  display: flex;
+  flex-direction: column;
+  color: #e7e5e4;
+}
+
+#helpButton a {
+  display: flex;
+  text-decoration: none;
+  color: #e7e5e4;
+  gap: 1rem;
+  font-size: 1.6rem;
+  transition: all 0.1s ease;
+}
+
+#helpButton i {
+  color: #a3e635;
+}
+#helpButton:hover {
+  transform: scale(1.05);
+}
+
+#jobButton a {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  gap: 1rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #e7e5e4;
+  height: 3rem;
+  margin-top: 15px;
+  transition: all 0.1s ease;
+}
+
+#jobButton i {
+  color: #818cf8;
+}
+
+#jobButton:hover {
+  transform: scale(1.05);
+}
